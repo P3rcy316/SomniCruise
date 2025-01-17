@@ -1,6 +1,7 @@
 h1 {
   text-align: center;
   width: 200px;
+  margin: auto;
   background-color: rgb(61, 94, 84);
 } 
 body {
