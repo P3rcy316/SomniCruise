@@ -1,10 +1,10 @@
 h1 {
-  text-align: center;
-  margin: auto;
-  background-color: rgb(61, 94, 84);
+  text-align: center; /* Puts the text in the center */
+  margin: auto; /* Auto margins */
+  background-color: rgb(61, 94, 84); /* Sets the color to a blue */
 } 
 body {
-  background-color: rgb(22, 60, 69);
+  background-color: rgb(22, 60, 69); /* Sets the color to a darker blue */
 }
 /* 61, 94, 84 and 22,60,69 */
 .navbar {
@@ -24,4 +24,5 @@ body {
 .title {
   flex-grow: 1; /* Allows the title to take remaining space */
   text-align: center; /* Centers the title */
+  font_style: bold; /* Sets the text to bold */
 }
