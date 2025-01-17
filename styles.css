@@ -7,9 +7,21 @@ body {
   background-color: rgb(22, 60, 69);
 }
 /* 61, 94, 84 and 22,60,69 */
-.profile {
-  text-align: right;
+.navbar {
+  display: flex; /* Enables Flexbox */
+  justify-content: space-between; /* Space between elements */
+  align-items: center; /* Centers items vertically */
+  background-color: #1b3b3b; /* Example background color */
+  padding: 10px 20px; /* Add padding for spacing */
+  color: #ffffff; /* Text color */
 }
-.settings {
-  text-align: left;
+
+.settings, .title, .profile {
+  font-family: Arial, sans-serif; /* Choose a font */
+  font-size: 18px; /* Adjust font size */
+}
+
+.title {
+  flex-grow: 1; /* Allows the title to take remaining space */
+  text-align: center; /* Centers the title */
 }
