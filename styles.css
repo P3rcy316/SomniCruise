@@ -7,3 +7,9 @@ body {
   background-color: rgb(22, 60, 69);
 }
 /* 61, 94, 84 and 22,60,69 */
+.profile {
+  text-align: right;
+}
+.settings {
+  text-align: left;
+}
