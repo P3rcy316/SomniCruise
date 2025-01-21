@@ -1,10 +1,10 @@
 h1 {
   text-align: center; /* Puts the text in the center */
   margin: auto; /* Auto margins */
-  background-color: rgb(31, 48, 43); /* Sets the color to a blue */
+  background-color: rgb(24, 37, 33); /* Sets the color to a blue */
 } 
 body {
-  background-color: rgb(11, 32, 36); /* Sets the color to a darker blue */
+  background-color: rgb(16, 45, 51); /* Sets the color to a darker blue */
 }
 /* 61, 94, 84 and 22,60,69 */
 .navbar {
