@@ -27,7 +27,7 @@ body {
 }
 .footer {
   font-size: 3;
-  bottom-margin: 10px;
+  bottom-margin: 3px;
   position: fixed;
   bottom: 0;
   color: rgb(10, 51, 71);
