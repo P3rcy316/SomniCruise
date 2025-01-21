@@ -9,12 +9,10 @@ body {
   padding: 10px 20px; /* Add padding for spacing */
   color: #ffffff; /* Text color */
 }
-
 .settings, .title, .profile {
   font-family: Arial, sans-serif; /* Choose a font */
   font-size: 18px; /* Adjust font size */
 }
-
 .title {
   flex-grow: 1; /* Allows the title to take remaining space */
   text-align: center; /* Centers the title */
@@ -24,6 +22,6 @@ body {
   width: 100%; /* Make players responsive */
   max-width: 800px; /* Set a max size */
   margin: 20px auto; /* Center align */
-  margin-top: 35px;
+  margin-top: 35px; /* pushes down the video a bit */
   display: block;
 }
