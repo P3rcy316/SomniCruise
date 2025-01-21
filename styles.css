@@ -30,5 +30,6 @@ body {
   width: 100%; /* Make players responsive */
   max-width: 600px; /* Set a max size */
   margin: 20px auto; /* Center align */
+  margin-up: 50px;
   display: block;
 }
