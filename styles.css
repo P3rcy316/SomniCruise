@@ -26,6 +26,8 @@ body {
   display: block;
 }
 .footer {
-  font-size: 11;
+  font-size: 7;
   bottom-margin: 10px;
+  position: fixed;
+  bottom: 0;
 }
