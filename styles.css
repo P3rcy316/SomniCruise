@@ -26,7 +26,8 @@ body {
   display: block;
 }
 .footer {
-  font-size: 3px;
+  font-size: 7px;
   position: fixed;
   bottom: 0;
+  color: #000000
 }
