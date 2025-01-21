@@ -1,8 +1,3 @@
-h1 {
-  text-align: center; /* Puts the text in the center */
-  margin: auto; /* Auto margins */
-  background-color: rgb(25, 41, 39); /* Sets the color to a blue */
-} 
 body {
   background-color: rgb(5, 25, 35); /* Sets the color to a darker blue */
 }
