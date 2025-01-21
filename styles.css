@@ -25,3 +25,7 @@ body {
   margin-top: 35px; /* pushes down the video a bit */
   display: block;
 }
+.footer {
+  font-size: 11;
+  bottom-margin: 10px;
+}
