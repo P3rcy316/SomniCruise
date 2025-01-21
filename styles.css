@@ -26,3 +26,9 @@ body {
   text-align: center; /* Centers the title */
   font-style: bold; /* Sets the text to bold */
 }
+.audio, .video {
+  width: 100%; /* Make players responsive */
+  max-width: 600px; /* Set a max size */
+  margin: 20px auto; /* Center align */
+  display: block;
+}
