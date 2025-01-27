@@ -41,9 +41,9 @@ body {
 }
 .progress {
   font-size: 12px;
+  positon: fixed;
   margin: 5px auto;
   align-items: left;
-  positon: fixed;
   bottom: 0;
   text-align: right;
 }
