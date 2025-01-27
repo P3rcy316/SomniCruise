@@ -34,17 +34,15 @@ body {
 .version {
   font-size: 10px;
   position: fixed;
-  margin: 5px auto;
-  align-items: left;
-  bottom: 0;
+  bottom: 5px;
+  right: 5px;
   text-align: right;
 }
 .progress {
   font-size: 12px;
-  positon: fixed;
-  margin: 5px auto;
-  align-items: left;
-  bottom: 0;
+  position: fixed;
+  bottom: 25px;
+  right: 5px;
   text-align: right;
 }
   
