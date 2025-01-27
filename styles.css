@@ -35,12 +35,16 @@ body {
   font-size: 10px;
   position: fixed;
   margin: 5px auto;
-  align-items: right;
+  align-items: left;
+  bottom: 0;
+  text-align: right;
 }
 .progress {
   font-size: 12px;
   margin: 5px auto;
-  align-items: right;
+  align-items: left;
   positon: fixed;
+  bottom: 0;
+  text-align: right;
 }
   
