@@ -31,3 +31,16 @@ body {
   bottom: 0;
   color: #000000;
 }
+.version {
+  font-size: 10px;
+  position: fixed;
+  margin: 5px auto;
+  align-items: right;
+}
+.progress {
+  font-size: 12px;
+  margin: 5px auto;
+  align-items: right;
+  positon: fixed;
+}
+  
