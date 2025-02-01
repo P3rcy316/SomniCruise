@@ -18,7 +18,7 @@ body {
   text-align: center; /* Centers the title */
   font-style: bold; /* Sets the text to bold */
 }
-.audio, .video {
+.video {
   width: 100%; /* Make players responsive */
   max-width: 800px; /* Set a max size */
   margin: 20px auto; /* Center align */
@@ -27,7 +27,7 @@ body {
 }
 .audio {
   width: 100%; /* Make players responsive */
-  max-width: 200px; /* Set a max size */
+  max-width: 500px; /* Set a max size */
   margin: 20px auto; /* Center align */
   margin-top: 45px; /* pushes down the video a bit */
   display: block;
