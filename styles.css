@@ -55,8 +55,9 @@ body {
 .updates {
   font-size: 13px;
   position: fixed;
-  bottom: 35px;
+  bottom: 42px;
   right: 5px;
   text-align: right;
+  font-family: Times-New-Roman, Arial, sans-serif;
 }
   
