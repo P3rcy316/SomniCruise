@@ -35,14 +35,14 @@ body {
 .footer {
   font-size: 5.5px;
   position: fixed;
-  bottom: 0;
+  bottom: 1px;
   color: #000000;
 }
 .version {
-  font-size: 10px;
+  font-size: 11px;
   position: fixed;
-  bottom: 5px;
-  right: 5px;
+  bottom: 3px;
+  right: 7px;
   text-align: right;
 }
 .progress {
