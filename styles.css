@@ -65,7 +65,7 @@ body {
 }
 .shuffling {
   margin: 20px auto;
-  bottom: 55px;
+  margin-top: 85px;
   display: block;
   width: 100%;
   max-width: 175px;
