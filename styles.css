@@ -29,7 +29,7 @@ body {
   width: 100%; /* Make players responsive */
   max-width: 500px; /* Set a max size */
   margin: 20px auto; /* Center align */
-  margin-top: 45px; /* pushes down the video a bit */
+  margin-top: 45px; /* pushes down the audio a bit */
   display: block;
 }
 .footer {
@@ -64,8 +64,7 @@ body {
   color: #ffffff;
 }
 .shuffling {
-  position: fixed;
-  margin: 10px auto;
+  margin: 20px auto;
   margin-top: 65px;
   left: 50px;
   display: block;
