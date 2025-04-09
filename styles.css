@@ -24,7 +24,6 @@ body {
   margin: 20px auto; /* Center align */
   margin-top: 35px; /* pushes down the video a bit */
   display: block;
-  position: fixed;
 }
 .audio {
   width: 100%; /* Make players responsive */
@@ -32,7 +31,6 @@ body {
   margin: 20px auto; /* Center align */
   margin-top: 45px; /* pushes down the audio a bit */
   display: block;
-  position: fixed;
 }
 .footer {
   font-size: 5.5px;
@@ -67,7 +65,6 @@ body {
 }
 .shuffling {
   margin: 20px auto;
-  position: fixed;
   margin-top: 120px;
   display: block;
   width: 100%;
