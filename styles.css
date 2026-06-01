@@ -12,6 +12,7 @@ body {
 .settings, .title, .profile {
   font-family: Arial, sans-serif; /* Choose a font */
   font-size: 18px; /* Adjust font size */
+  color: #2e4d32;
 }
 .title {
   flex-grow: 1; /* Allows the title to take remaining space */
@@ -77,5 +78,4 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
-  color: white;
 }
