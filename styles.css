@@ -42,7 +42,15 @@ body {
 .version {
   font-size: 11px;
   position: fixed;
-  bottom: 3px;
+  bottom: 8px;
+  right: 7px;
+  text-align: right;
+  color: #ffffff;
+}
+.github {
+  font-size: 11px;
+  position: fixed;
+  bottom: 5px;
   right: 7px;
   text-align: right;
   color: #ffffff;
@@ -78,4 +86,46 @@ body {
   padding: 6px 11px;
   text-decoration: none;
   border-radius: 5px;
+}
+.modal{
+  position: fixed;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #021412;
+  z-index: 10;
+  width: 450px;
+  max-width: 80%;
+  padding: -0;
+}
+.modal::backdrop{
+  background-color: rgba(0,0,0,0.7);
+}
+.modal-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+.modal-header .title{
+  font-family: Arial, sans-serif; /* Choose a font */
+  font-size: 1.5rem; /* Adjust font size */
+  color: #36593b;
+  flex-grow: 1; /* Allows the title to take remaining space */
+  text-align: center; /* Centers the title */
+  font-weight: bold;
+}
+.modal-header .close{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: darkgray;
+}
+.modal-body{
+  font-size: 20px;
+  padding: 10px 15px;
+  color: #36593b;
 }

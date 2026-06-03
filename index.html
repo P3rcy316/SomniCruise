@@ -9,8 +9,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SomniCruise</title>
         <link rel="stylesheet" href="styles.css">
+        <script defer src="script.js"></script>
     </head>
     <body>
+        <dialog class="modal" id="modal">
+            <div class="modal-header">
+                <div class="title">Welcome to SomniCruise!</div>
+                <button class="close" id="close-button">&times;</button>
+            </div>
+            <div class="modal-body">SomniCruise is a website dedicated to those that like night drives with music. You can use the site to study, sleep, relax, game, or anything else! </div>
+            <div class="modal-body">This site is currently in active development and will vastly change over the course of time so please take that into account. This site is open source and the link to the github is in the bottom right.</div>
+            <div class="modal-body">If you have any ideas please let me know at "somnicruise.dev@gmail.com" and thank you for using the site!</div>
+        </dialog>
         <div class="navbar">
           <span class="site_button"><span class="settings">Settings</span></span>
           <a href="https://somnicruise.netlify.app" class ="site_button"><span class="title">SomniCruise</span></a>
@@ -31,7 +41,8 @@
         <p class="shuffling"></p>
         <p class="progress"></p>
         <p class="updates"></p>
-        <p class="version">Version 1.1.5</p>
+        <p class="version">Version 2.0</p>
+        <a href ="https://github.com/P3rcy316/SomniCruise" target="_blank" class= "github">Github</a>
         <footer class="footer">
             <p>Note: These videos and audio are not my own and I do not claim them to be. They belong to their respective owners.</p>
             <p>Current audio belongs to C418 from his Minecraft albums, all rights are his. Audio is being used for non-commerical purposes.</p>
